@@ -1,0 +1,152 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1, h2, h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:900;
+}
+
+p{
+    font-weight: 300;
+    color: #8f8f8f;
+}
+
+/* heading section */
+
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* section */
+.colored-section{
+    background-color: #ff4c68;
+    color:#fff;
+}
+.white-section{
+    background-color: #fff;
+}
+
+/* title section */
+
+
+.container-fluid{
+    padding:3% 15%;
+}
+.navbar-brand{
+    font-size: 3rem;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.nav-item{
+    padding:0 18px;
+}
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+.download-button{
+    margin:5% 3% 5% 0%;
+}
+.title-image{
+    width:60%;
+    transform: rotate(25deg);
+    position: absolute;
+} 
+
+/**features section**/
+
+#features{
+    margin-left: auto;
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    position: relative;
+    padding:5% 0;
+    z-index:1;
+}
+.features-box{
+    padding-top:4%;
+}
+.features-icon {
+    margin-bottom: 1rem; 
+    color:#ef8172;
+}
+.fas:hover{
+    color:#ff4c68;
+}
+.features-title{
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+/* testimonial section */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color:#fff
+}
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 7%;
+}
+.press-image{
+    margin: 20px;
+    width: 15%;
+}
+
+/* pricing section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/* cta section */
+#cta{
+    text-align: center;
+    padding: 7% 15% 5%;
+    }
+
+/* footer section */
+
+#footer{
+    background-color: #fff;
+    padding: 7% 15% 3%;
+    text-align: center;
+}
+
+.socmed-icon{
+    color:#000;
+    margin-left:20px;
+    margin-bottom: 3%;
+    text-align: center;
+}
